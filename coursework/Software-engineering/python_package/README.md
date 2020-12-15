@@ -14,6 +14,8 @@ Create
 
 -   inside the 'distributions' folder, the Gaussiandistribution.py file, Generaldistribution.py and an **init**.py file.
 
+-   Binomialdistribution.py inheriting Generalidistribution.py
+
 Once everything is set up, get back to `python_package` and type `pip install .`
 
 If everything is set up correctly, pip will install the distributions package into the workspace.
