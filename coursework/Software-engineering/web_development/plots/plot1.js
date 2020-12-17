@@ -125,14 +125,23 @@ const data = [trace1, trace2, trace3];
 
 const layout = {
     title: 'Percent of Land Used for Agriculture <br> 1995-2015',
-    xaxis: {
-        title: 'year',
-    },
+    // xaxis: {
+    //     title: 'year',
+    //     automargin: true,
+    // },
     yaxis: {
         title: 'arable land (%)',
     },
     // width: '',
     // height: ''
+
+    // Position legend in the center
+    showlegend: true,
+    legend: {
+        orientation: 'v',
+        // x: 0.5,
+        // y: 1,
+    },
 };
 
 Plotly.newPlot('plot1', data, layout);

@@ -29,9 +29,9 @@ const data_p2 = [trace_p2];
 const layout_p2 = {
     // barmode: stack
     title: 'Percent of Land Used for Agriculture<br>in 2015',
-    xaxis: {
-        title: 'country',
-    },
+    // xaxis: {
+    //     title: 'country',
+    // },
     yaxis: {
         title: 'arable land (%)',
     },
