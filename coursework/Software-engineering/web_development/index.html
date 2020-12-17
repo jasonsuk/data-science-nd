@@ -89,21 +89,13 @@
                 <div class="container mt-4">
                     <div class="row">
                         <div class="col-6">
-                            <img
-                                class="img-fluid"
-                                src="./assets/plot1.png"
-                                alt="Plot 1"
-                            />
+                            <div id="plot1"></div>
                         </div>
                         <div class="col">
-                            <img
-                                class="img-fluid"
-                                src="./assets/plot2.png"
-                                alt="Plot 2"
-                            />
+                            <div id="plot2"></div>
                         </div>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-6">
                             <img
                                 class="img-fluid"
@@ -118,7 +110,7 @@
                                 alt="Plot 4"
                             />
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -142,5 +134,12 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"
         ></script>
+        <!-- plotly -->
+        <script
+            src="https://cdn.plot.ly/plotly-latest.min.js"
+            charset="utf-8"
+        ></script>
+        <script src="plots/plot1.js"></script>
+        <script src="plots/plot2.js"></script>
     </body>
 </html>
