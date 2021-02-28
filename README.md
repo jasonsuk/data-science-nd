@@ -19,5 +19,10 @@ The repository is constructed of the two main folders as below.
     > -   Software Engineering : web development, object oriented programming, python package, git version control & testing
     > -   Data Engineering : ETL pipelines, NLP pipelines
 
--   `projects` folder :
-    > Self-coded projects submiited to pass the courses.
+-   `project-recommendation` folder :
+    > A guided project to build a recommender system <br><br>
+    > Project description :
+    >
+    > -   Recommendation of articles to users on IBM Watsons Studio platform
+    > -   Covering knowledge-based recommendation, user-user collaborative filtering and matrix factoration
+    > -   **[Not yet completed]** Content-based recommendation
